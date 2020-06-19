@@ -20,6 +20,20 @@ export const Card = styled.div`
   margin-top: 15px;
   padding: 20px;
 
+  main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    img {
+      width: 500px;
+      height: 500px;
+
+      margin-bottom: 20px;
+    }
+  }
+
   h2 {
     font-size: 22px;
     color: #392d2d;

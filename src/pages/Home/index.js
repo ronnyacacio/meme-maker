@@ -69,12 +69,12 @@ export default function Home() {
       <img src={logo} alt="MemeMaker" />
       <Card>
         {generatedMeme ? (
-          <>
+          <main>
             <img src={generatedMeme} alt="Meme" />
             <Button type="button" onClick={handleReset}>
               Criar outro meme
             </Button>
-          </>
+          </main>
         ) : (
           <>
             <h2>Selecione um template</h2>
