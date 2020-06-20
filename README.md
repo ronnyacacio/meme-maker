@@ -36,10 +36,16 @@ Esse projeto visa facilitar o processo de criação de memes... Quando você pre
 
 <br />
 
-## 🌐 Preview
+## 🌐 WEB
 
 <h1 align="center">
     <img src=".github/mememaker.gif" />
+</h1>
+
+## 📱 Mobile
+
+<h1 align="center">
+    <img src=".github/mememaker-mobile.gif" />
 </h1>
 
 ## 🚀 Tecnologias
