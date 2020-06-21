@@ -1,22 +1,26 @@
 {
   "expo": {
-    "name": "meme-maker",
+    "name": "MemeMaker",
     "slug": "meme-maker",
     "platforms": ["ios", "android", "web"],
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "splash": {
-      "image": "./assets/logo.png",
+      "image": "./assets/splash.png",
       "resizeMode": "contain",
-      "backgroundColor": "#eeeeee"
+      "backgroundColor": "#f8f8f8"
     },
     "updates": {
       "fallbackToCacheTimeout": 0
     },
     "assetBundlePatterns": ["**/*"],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.ronnyacacio.mememaker"
+    },
+    "android": {
+      "package": "com.ronnyacacio.mememaker"
     }
   }
 }
